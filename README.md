@@ -12,7 +12,7 @@ I think there is some problem with the message "You are blocked, contact the own
 I have screenshots which I would like to share if you want.
 
 First thing that is missing and came to my mind is the message component,
-which I saw it later coming soon, and I am really excited if I work on that feature, I will give my best and have few ideas for that also,
+which I saw it later "coming soon", and I am really excited if I work on that feature, I will give my best and have few ideas for that also,
 chatbot where hackers can ask questions (maybe for fun, because I like that error "You went full retard..."),
 AI driven scenarios where investors chat with bonds and can exploit some extra vulerabilities.
 
