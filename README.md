@@ -6,7 +6,7 @@ Hi, my name is Deni. I was playing with YieldCat in the past couple of days and 
 
 The concept and the idea of the project is wonderful about people who want to learn and practice cybersecurity or ethical hacking.
 The UI/UX design may be a little bit better, also noticed few simple bugs in the frontend and backend development.
-There is one "'" next to the header nav, and I was triggered few times to remove it :). 
+There is one "'" next to the header nav, and I was triggered few times to remove it. 
 Also, when you search the bond id and open it, when you want to refresh the market data, the on click button function is not working properly.
 I think there is some problem with the message "You are blocked, contact the owner..." when trying to exploit SQL injection or script tag.
 I have screenshots which I would like to share if you want.
