@@ -9,7 +9,6 @@ The UI/UX design may be a little bit better, also noticed few simple bugs in the
 There is one "'" next to the header nav, and I was triggered few times to remove it.
 Also, when you search the bond id and open it, when you want to refresh the market data, the on click button function is not working properly.
 I think there is some problem with the message "You are blocked, contact the owner..." when trying to exploit SQL injection or script tag.
-I have screenshots which I would like to share if you want.
 
 First thing that is missing and came to my mind is the message component,
 which I saw it later "coming soon", chatbot where hackers can ask questions (maybe for fun, because I like that error "You went full retard..."),
