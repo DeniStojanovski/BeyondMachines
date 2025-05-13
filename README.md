@@ -12,7 +12,7 @@ I think there is some problem with the message "You are blocked, contact the own
 
 First thing that is missing and came to my mind is the message component,
 which I saw it later "coming soon", chatbot where hackers can ask questions (maybe for fun, because I like that error "You went full retard..."),
-AI driven scenarios where investors chat with bonds and can exploit some extra vulerabilities, or some games with guessing the right answer what to do in attacks, 
+AI driven scenarios where investors chat with bonds and can exploit some extra vulnerabilities, or some games with guessing the right answer what to do in attacks, 
 bigger documentation about what to do and how to protect yourselves from cyber attacks...
 
 I am still working on that and trying to figure out more ideas while playing and learning, and I don't want to miss this opportunity,
