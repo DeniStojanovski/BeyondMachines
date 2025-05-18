@@ -89,7 +89,7 @@ moze da se iskoristat za da se napravi github repo so istoto ime i da se ima kon
 
 ###### app.beyondmachines.net (18.244.87.78) host AWS
 ne znaev zasto se koristi, ista ip adresa, dali e zaboravena ili se koristi za develop, okej da se ima 2 isti, megjutoa moze da se napravi problem
-ako edna od dvete imaat pomalku security headers ili poslaba konfiguracija, stanuva weak point, isto taka povekje DNS zapisi se odrzuvaat, ako e aplikacija i se koristi kako glavnata strana moze da se zbunat korisnicite i develepoerite.
+ako edna od dvete imaat pomalku security headers ili poslaba konfiguracija, stanuva weak point, isto taka povekje DNS zapisi se odrzuvaat, ako e aplikacija i se koristi kako main site moze da se zbunat korisnicite i developerite.
 ako se koristi treba da ima isti konfiguracii kako glavnata strana ili pa da se napravi redirect do taa
 
 ###### workshop.beyondmachines.net (18.165.72.99) host AWS
@@ -101,3 +101,20 @@ treba da se izbrise DNS recordot, da se deaktivira cloudfront ako ne se koristi.
 
 ###### test.beyondmachines.net
 ne e aktiven, isto taka ne mozam da najdam nisto, bi trebalo da e ok ako e izbrisan sekoj DNS zapis
+
+# Istrazuvanja
+
+### Testiranje so DNS recon
+- DNS transferite se dobro konfigurirani
+- Email security ne e kompletno, SPF i DMARC gi ima, megjutoa DMARC p=none
+- Ima nekoi subdomains sto se nepotrebno izlozeni na rizik
+
+# Preporaki
+
+- Treba da se izbrisat ili da se iskoristat pravilno site subdomains sto deluvaat kako izbrisani ili zaboraveni
+- Tie sto se za testiranje ili ucenje da se obrne pogolemo vnimanie okolu security zasto e golem rizik
+- Da se update DMAR p=none vo p=reject ili p=quarantine za da ima pogolema zastita na email spoofing
+- redirect na duplikati kako app.beyondmachines.net subdomains do main site ako ne trebaat
+- da se obezbedi dobro sekoj subdomain so security headers, HTTPS, CSP
+- sekogas dobro da se sledi koj subdomains se vo upotreba
+- da ne se ostavaat zastareni DNS zapisi
