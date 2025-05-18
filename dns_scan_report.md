@@ -70,16 +70,16 @@ Moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze d
 
 ### Neaktivni (proverka so dig, curl, whatweb, whois ...)
 
-- ako.beyondmachines.net
-- clarity.beyondmachines.net
-- damascian.beyondmachines.net
-- damascian-online.beyondmachines.net
-- rendertest.beyondmachines.net
-- status.beyondmachines.net
-- testalb.beyondmachines.net
-- yieldhog.beyondmachines.net
+###### ako.beyondmachines.net
+###### clarity.beyondmachines.net
+###### damascian.beyondmachines.net
+###### damascian-online.beyondmachines.net
+###### rendertest.beyondmachines.net
+###### status.beyondmachines.net
+###### testalb.beyondmachines.net
+###### yieldhog.beyondmachines.net
 
-- od neaktivnite - nema potencijalno nisto
+#### od neaktivnite - nema potencijalno nisto
 bi trebalo da se izbrisat site DNS na neaktivnite, mora i da se iscistat site DNS zapisi za da ne moze nekoja budala samo so kreiranje na novo repo ili bucket da go prevzeme domainot
 moze da se iskoristat za da se napravi github repo so istoto ime i da se ima kontrola na toj domain, da se napravi takeover na domainot
 
