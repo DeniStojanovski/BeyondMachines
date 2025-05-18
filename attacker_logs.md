@@ -21,3 +21,5 @@
 - ovaa IP adresa koristi Postman, alatka za testiranje na API, probuva da pristapi kon /api/users 403 forbidden error, obidi za kreiranje naracki, prviot neuspesen, vtoriot uspesen, mnogu e mozno da e tester ili attacker sto gi testira API endpoints. isto taka ima i neobicni parametri, sto moze da bide ili greska vo urlto ili obid za API manipulacija. Moze da e prethodnik na napadi kako Brute-force ili API abuse.
 ##### Koristeni maliciozni aktivnosti: API scan, auth test
 ##### Preporaki: monitoring na IP adresata, ako ne e poznata da se razgleda blokiranje, ogranicuvanje na API povici, logiranje na neuspesni obidi, proverka na parametri
+
+## Spored mene, ovaa aplikacija e hakirana, podatocite mozat da bidat zloupotrebeni i treba da se prevzemat itni merki za bezbednost kako sto e navedeno pogore
