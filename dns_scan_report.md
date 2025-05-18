@@ -54,7 +54,7 @@
 ###### www.beyondmachines.net (18.244.87.20) - host AWS
 
 ###### challenge.beyondmachines.net (185.199.111.153) - host GITHUB
-Treba da bide aktivna samo dodeka trae challenge-ot, last modified e pred 4 meseci, deluva na zaboravena, nema potreba da bide izlozena na dopolnitelen rizik i pogolema povrsina za napad, moze da se avtomatizira next challenge etc..
+Treba da bide aktivna samo dodeka trae challenge-ot, last modified e pred 4 meseci, deluva na zaboravena, nema potreba da bide izlozena na dopolnitelen rizik i pogolema povrsina za napad, moze da se avtomatizira next challenge, da se ukradat informacii etc..
 
 ###### old.beyondmachines.net (192.0.78.189) - host AUTOMATTIC
 I ovaa nema potreba da bide aktivna, pokazuva na wordpress, unrelated e, dokolku vlece nekoi stari podatoci sto trebaat momentalno, okej, dokolku ne vlece i ne se koristi za nisto, treba da bide trgnata zasto 
