@@ -87,16 +87,16 @@ moze da se iskoristat za da se napravi github repo so istoto ime i da se ima kon
 
 ### Drugi
 
-- app.beyondmachines.net (18.244.87.78) host AWS
+# app.beyondmachines.net (18.244.87.78) host AWS
 ne znaev zasto se koristi, ista ip adresa, dali e zaboravena ili se koristi za develop, okej da se ima 2 isti, megjutoa moze da se napravi problem
 ako edna od dvete imaat pomalku security headers ili poslaba konfiguracija, stanuva weak point, isto taka povekje DNS zapisi se odrzuvaat, ako e aplikacija i se koristi kako glavnata strana moze da se zbunat korisnicite i develepoerite.
 ako se koristi treba da ima isti konfiguracii kako glavnata strana ili pa da se napravi redirect do taa
 
-- workshop.beyondmachines.net (18.165.72.99) host AWS
+# workshop.beyondmachines.net (18.165.72.99) host AWS
 ova izgleda kako zaboraveno sto isto taka nema potreba da e online dodeka ne trae, workshopot se odrzal, pogolema povrsina za napad, moze da se zloupotrebat podatoci mails, users...
 
-- pubcdn.beyondmachines.net (18.165.72.104) host AWS
+# pubcdn.beyondmachines.net (18.165.72.104) host AWS
 nikako ne smee da bide aktivna ako ne se koristi, vrakja 403 error sto e somnitelno, dzabe pogolema povrsina za napad...
 treba da se izbrise DNS recordot, da se deaktivira cloudfront ako ne se koristi.
 
-- test.beyondmachines.net - ne e aktiven, isto taka ne mozam da najdam nisto, bi trebalo da e ok ako e izbrisan sekoj DNS zapis
+# test.beyondmachines.net - ne e aktiven, isto taka ne mozam da najdam nisto, bi trebalo da e ok ako e izbrisan sekoj DNS zapis
