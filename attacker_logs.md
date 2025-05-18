@@ -36,7 +36,7 @@ Pocnuva so XSS napad vo URL-to na blog comment, SQL injection vo search field, p
 - zastita od Brute-force napadi
 
 ## 121.18.83.75
-SQL injection i enkodirani karakteri , kaj sto dava 500 error neuspesen obid, isto taka probuva so path traversal so ../../etc/passwd, isto i so XSS script tag 400 error bad request, i command injection kaj sto mu dava 404 not found. ima i obid so /api/user1/profile i /api/user2/profile da proba da gi prikaze korisnicite neovlasteno. isto taka moze da e istiot attacker so smeneta ip adresa.
+SQL injection i enkodirani karakteri , kaj sto dava 500 error neuspesen obid, isto taka probuva so path traversal so ../../etc/passwd, isto i so XSS script tag 400 error bad request, i command injection kaj sto mu dava 404 not found. ima i obid so /api/user1/profile i /api/user2/profile da proba da gi prikaze korisnicite neovlasteno. isto taka moze da e istiot attacker so smeneta ip adresa, zasto dobiva 200 error so api/info i potoa 45.33.49.201 se logira na admin.
 ##### Koristeni maliciozni aktivnosti: 
 - XSS (Cross-Site Scripting)
 - SQL ili CommandInjection
