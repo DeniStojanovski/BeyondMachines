@@ -61,11 +61,11 @@ I ovaa nema potreba da bide aktivna, pokazuva na wordpress, unrelated e, dokolku
 moze da se najde star kontent, netocen kontent, stari passwordi, emails etc. Ili ako mora da e aktivna treba da pokaze 404, last updated vo 2024...
 
 ###### trust.beyondmachines.net (104.18.5.130) - host CLOUDFLARE
-Moze da bide aktivna samo ako sluzi za legalni informacii ili privacy policy, vo sprotivno nema potreba, gledam uste e vo produkcija, ne e zavrsena. Isto vrakja 403 forbidden error sto e somnitelno od terminal,
-znaci ne moze da bide proverena, sto e dobar znak za security mozebi, drugi znaci na opasnost ne gledam.
+Moze da bide aktivna samo ako sluzi za legalni informacii ili privacy policy, vo sprotivno nema potreba, kako uste da e vo produkcija i da ne e zavrsena mi deluva. Isto vrakja 403 forbidden error sto e somnitelno od terminal,
+znaci ne moze da bide proverena, sto e dobar znak za security i ima jaki security headers.
 
 ###### yieldcat.beyondmachines.net (216.24.57.1) - host CLOUDFLARE
-Nema security headers, moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze da bide potencijalen kandidat za napad ako ne e pravilno osigurana i odrzuvana.
+Moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze da bide potencijalen kandidat za napad ako ne e pravilno osigurana i odrzuvana.
 
 
 ### Neaktivni - 8 - (proverka so dig, curl, whatweb, whois ...)
@@ -88,12 +88,12 @@ moze da se iskoristat za da se napravi github repo so istoto ime i da se ima kon
 ### Drugi - 4
 
 ###### app.beyondmachines.net (18.244.87.78) host AWS
-ne znaev zasto se koristi, ista ip adresa, dali e zaboravena ili se koristi za develop, okej da se ima 2 isti, megjutoa moze da se napravi problem
-ako edna od dvete imaat pomalku security headers ili poslaba konfiguracija, stanuva weak point, isto taka povekje DNS zapisi se odrzuvaat, ako e aplikacija i se koristi kako main site moze da se zbunat korisnicite i developerite.
+ne znaev zasto se koristi, ista ip adresa, dali e zaboravena ili se koristi za develop, moze da e okej da se ima 2 isti, megjutoa moze da se napravi problem
+ako edna od dvete imaat poslabi security headers ili poslaba konfiguracija, stanuva weak point, isto taka povekje DNS zapisi se odrzuvaat, ako e aplikacija i se koristi kako main site moze da se zbunat korisnicite i developerite.
 ako se koristi treba da ima isti konfiguracii kako glavnata strana ili pa da se napravi redirect do taa
 
 ###### workshop.beyondmachines.net (18.165.72.99) host AWS
-ova izgleda kako zaboraveno sto isto taka nema potreba da e online dodeka ne trae, workshopot se odrzal, pogolema povrsina za napad, moze da se zloupotrebat podatoci mails, users...
+ova izgleda kako zaboraveno sto isto taka nema potreba da e online dodeka ne trae, workshopot se odrzal, pogolema povrsina za napad, moze da se zloupotrebat podatoci
 
 ###### pubcdn.beyondmachines.net (18.165.72.104) host AWS
 nikako ne smee da bide aktivna ako ne se koristi, vrakja 403 error sto e somnitelno, dzabe pogolema povrsina za napad...
