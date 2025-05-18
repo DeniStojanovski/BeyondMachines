@@ -29,24 +29,24 @@
 ## Kako gi barav:
 
 - Prvo napraviv scan so amass kaj sto dobiv detali za site subdomains na beyondmachines.net
-amass enum -passive -d beyondmachines.net -o amass_results.txt -timeout 5
+##### amass enum -passive -d beyondmachines.net -o amass_results.txt -timeout 5
 
 - potoa napraviv uste eden scan so subfinder
-subfinder -d beyondmachines.net -o subfinder_results.txt
+##### subfinder -d beyondmachines.net -o subfinder_results.txt
 
 - gi spoiv rezultatite i gi filtrirav so sort i uniq
-cat ~/Downloads/amass_Linux_amd64/amass_results.txt subfinder_results.txt | sort | uniq > all_subdomains.txt
+##### cat ~/Downloads/amass_Linux_amd64/amass_results.txt subfinder_results.txt | sort | uniq > all_subdomains.txt
 
 - kaj sto mi dade 13 rezultati so subdomains vo datotekata all_subdomains.txt
 
 - da se osiguram skinirav i so sublist3r
-python3 sublist3r.py -d beyondmachines.net -o subdomains.txt
+##### python3 sublist3r.py -d beyondmachines.net -o subdomains.txt
 
 - posle so nmap go skenirav dokumentot, koj isto taka mi dade isto taka 13 rezultati so istite zapisi kako i subfinder i amass
-nmap -iL subdomains.txt -T4 -F -Pn
+##### nmap -iL subdomains.txt -T4 -F -Pn
 
 - istite se naogjaat i na linkot za SSL/TLS sertifikati kaj sto proveriv dali se validni i gi ima
-https://crt.sh/?q=%25.beyondmachines.net
+##### https://crt.sh/?q=%25.beyondmachines.net
 
 
 ### Aktivni (proverka so dig, curl, whatweb, whois ...)
