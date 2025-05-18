@@ -75,4 +75,4 @@ Koristi python skripti, sto e najverojatno avtomatiziran bot, prebaruva .robots.
 
 # Zaklucok
 
-## Spored mene, ovaa aplikacija e hakirana, podatocite mozat da bidat zloupotrebeni i treba da se prevzemat itni merki za bezbednost kako sto e navedeno pogore
+## Spored mene, ovoj sajt e hakiran (lici na SETEC scenario malku), podatocite mozat da bidat zloupotrebeni i treba da se prevzemat itni merki za bezbednost kako sto e navedeno pogore
