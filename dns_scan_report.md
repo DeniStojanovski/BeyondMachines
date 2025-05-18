@@ -65,7 +65,7 @@ Moze da bide aktivna samo ako sluzi za legalni informacii ili privacy policy, vo
 znaci ne moze da bide proverena, sto e dobar znak za security mozebi, drugi znaci na opasnost ne gledam.
 
 ###### yieldcat.beyondmachines.net (216.24.57.1) - host CLOUDFLARE
-Moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze da bide potencijalen kandidat za napad ako ne e pravilno osigurana i odrzuvana.
+Nema security headers, moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze da bide potencijalen kandidat za napad ako ne e pravilno osigurana i odrzuvana.
 
 
 ### Neaktivni (proverka so dig, curl, whatweb, whois ...)
@@ -113,7 +113,7 @@ ne e aktiven, isto taka ne mozam da najdam nisto, bi trebalo da e ok ako e izbri
 
 - Treba da se izbrisat ili da se iskoristat pravilno site subdomains sto deluvaat kako izbrisani ili zaboraveni
 - Tie sto se za testiranje ili ucenje da se obrne pogolemo vnimanie okolu security zasto e golem rizik
-- Da se update DMAR p=none vo p=reject ili p=quarantine za da ima pogolema zastita na email spoofing
+- Da se update DMARC p=none vo p=reject ili p=quarantine za da ima pogolema zastita na email spoofing
 - redirect na duplikati kako app.beyondmachines.net subdomains do main site ako ne trebaat
 - da se obezbedi dobro sekoj subdomain so security headers, HTTPS, CSP
 - sekogas dobro da se sledi koj subdomains se vo upotreba
