@@ -82,4 +82,4 @@ Moze da e somnitelen, menuva user agents okhttp na mozilla, skenira API i blog, 
 
 # Zaklucok
 
-## Spored mene, ovoj sajt e hakiran (lici na SETEC scenario malku), podatocite mozat da bidat zloupotrebeni i treba da se prevzemat itni merki za bezbednost kako sto e navedeno pogore
+## Spored mene, ovoj sajt e hakiran (lici na SETEC.mk scenario malku), podatocite mozat da bidat zloupotrebeni i treba da se prevzemat itni merki za bezbednost kako sto e navedeno pogore
