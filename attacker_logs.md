@@ -78,6 +78,7 @@ Moze da e somnitelen, menuva user agents okhttp na mozilla, skenira API i blog, 
 ##### Preporaki: 
 - monitoring na IP adresata
 - ako ne e legitimna da se blokira
+- proverka na logovi
 
 # Zaklucok
 
