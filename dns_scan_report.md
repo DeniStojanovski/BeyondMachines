@@ -51,20 +51,20 @@ https://crt.sh/?q=%25.beyondmachines.net
 
 ### Aktivni (proverka so dig, curl, whatweb, whois ...)
 
-- www.beyondmachines.net (18.244.87.20) - host AWS
+###### www.beyondmachines.net (18.244.87.20) - host AWS
 
-- challenge.beyondmachines.net (185.199.111.153) - host GITHUB
+###### challenge.beyondmachines.net (185.199.111.153) - host GITHUB
 Treba da bide aktivna samo dodeka trae challenge-ot, last modified e pred 4 meseci, deluva na zaboravena, nema potreba da bide izlozena na dopolnitelen rizik i pogolema povrsina za napad, moze da se avtomatizira next challenge etc..
 
-- old.beyondmachines.net (192.0.78.189) - host AUTOMATTIC
+###### old.beyondmachines.net (192.0.78.189) - host AUTOMATTIC
 I ovaa nema potreba da bide aktivna, pokazuva na wordpress, unrelated e, dokolku vlece nekoi stari podatoci sto trebaat momentalno, okej, dokolku ne vlece i ne se koristi za nisto, treba da bide trgnata zasto 
 moze da se najde star kontent, netocen kontent, stari passwordi, emails etc. Ili ako mora da e aktivna treba da pokaze 404, last updated vo 2024...
 
-- trust.beyondmachines.net (104.18.5.130) - host CLOUDFLARE
+###### trust.beyondmachines.net (104.18.5.130) - host CLOUDFLARE
 Moze da bide aktivna samo ako sluzi za legalni informacii ili privacy policy, vo sprotivno nema potreba, gledam uste e vo produkcija, ne e zavrsena. Isto vrakja 403 forbidden error sto e somnitelno od terminal,
 znaci ne moze da bide proverena, sto e dobar znak za security mozebi, drugi znaci na opasnost ne gledam.
 
-- yieldcat.beyondmachines.net (216.24.57.1) - host CLOUDFLARE
+###### yieldcat.beyondmachines.net (216.24.57.1) - host CLOUDFLARE
 Moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze da bide potencijalen kandidat za napad ako ne e pravilno osigurana i odrzuvana.
 
 
@@ -83,7 +83,7 @@ Moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze d
 bi trebalo da se izbrisat site DNS na neaktivnite, mora i da se iscistat site DNS zapisi za da ne moze nekoja budala samo so kreiranje na novo repo ili bucket da go prevzeme domainot
 moze da se iskoristat za da se napravi github repo so istoto ime i da se ima kontrola na toj domain, da se napravi takeover na domainot
 
-### Ne mislev deka samo tie zapisi moze da se najdat, istrazuvav uste i so nekoi drugi alatki pronajdov uste 4, od koi 3 se aktivni, 1 ne e aktiven. koristev dnsx - so wordlist, dnsumpster, waybackurls, securitytrails - API
+## Ne mislev deka samo tie zapisi moze da se najdat, istrazuvav uste i so nekoi drugi alatki pronajdov uste 4, od koi 3 se aktivni, 1 ne e aktiven. koristev dnsx - so wordlist, dnsumpster, waybackurls, securitytrails - API
 
 ### Drugi
 
@@ -99,4 +99,5 @@ ova izgleda kako zaboraveno sto isto taka nema potreba da e online dodeka ne tra
 nikako ne smee da bide aktivna ako ne se koristi, vrakja 403 error sto e somnitelno, dzabe pogolema povrsina za napad...
 treba da se izbrise DNS recordot, da se deaktivira cloudfront ako ne se koristi.
 
-###### test.beyondmachines.net - ne e aktiven, isto taka ne mozam da najdam nisto, bi trebalo da e ok ako e izbrisan sekoj DNS zapis
+###### test.beyondmachines.net
+ne e aktiven, isto taka ne mozam da najdam nisto, bi trebalo da e ok ako e izbrisan sekoj DNS zapis
