@@ -49,7 +49,7 @@
 ##### https://crt.sh/?q=%25.beyondmachines.net
 
 
-### Aktivni (proverka so dig, curl, whatweb, whois ...)
+### Aktivni - 5 - (proverka so dig, curl, whatweb, whois ...)
 
 ###### www.beyondmachines.net (18.244.87.20) - host AWS
 
@@ -68,7 +68,7 @@ znaci ne moze da bide proverena, sto e dobar znak za security mozebi, drugi znac
 Nema security headers, moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze da bide potencijalen kandidat za napad ako ne e pravilno osigurana i odrzuvana.
 
 
-### Neaktivni (proverka so dig, curl, whatweb, whois ...)
+### Neaktivni - 8 - (proverka so dig, curl, whatweb, whois ...)
 
 ###### ako.beyondmachines.net
 ###### clarity.beyondmachines.net
@@ -85,7 +85,7 @@ moze da se iskoristat za da se napravi github repo so istoto ime i da se ima kon
 
 ## Ne mislev deka samo tie zapisi moze da se najdat, istrazuvav uste i so nekoi drugi alatki pronajdov uste 4, od koi 3 se aktivni, 1 ne e aktiven. koristev dnsx - so wordlist, dnsumpster, waybackurls, securitytrails - API
 
-### Drugi
+### Drugi - 4
 
 ###### app.beyondmachines.net (18.244.87.78) host AWS
 ne znaev zasto se koristi, ista ip adresa, dali e zaboravena ili se koristi za develop, okej da se ima 2 isti, megjutoa moze da se napravi problem
