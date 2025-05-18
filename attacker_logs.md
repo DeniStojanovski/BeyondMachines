@@ -1,6 +1,6 @@
 2. Од логовите во фајлот во прилог, дали забележувате малиционзи активности? Ако има, од каде доаѓаат, и какви се (може да има повеќе од еден вид). Дали по вас овој сајт е хакиран или само има неуспешни обиди? Спремете си белешки или список за на интервјуто: како ги баравте ранливостите, што најдовте, што треба да направи администраторот (може и ништо не треба).
 
-# prvo sto mi tekna da napravam, sekoja IP adresa da proveram sto sakala da napravi i od koj operativen sistem ako ima vrska, tie IP adresi sto nemaat znaci na napad ne se navedeni.
+## Prvo sto mi tekna da napravam, sekoja IP adresa da proveram sto sakala da napravi i od koj operativen sistem ako ima vrska, tie IP adresi sto mislam deka nemaat znaci na napad ne se navedeni.
 
 ### 45.33.49.201
 - ovaa IP adresa e totalno somnitelna vednas, pocnuva so prebaruvanje na .robots.txt, .git, .env, /config.php, probuva da dojde do admin login page, kaj sto mu dava 404 errors, /admin mu pravi redirect, se dodeka ne dobie 200 ok request so /admin/login.php, togas ocigledno probuva so bruteforce da go probie passwordot so login requests na sekoi 3 sekundi, po nekoe vreme se logira na dashboard.php, simnuva backup zip file so site podatoci, potoa prikacuva shell.php malicious file so ok requests, i gi menuva podatocite so user-edit.php, najverojatno napadot e uspesen, site podatoci se zemeni i moze da bidat zloupotrebeni. Koristeni se povekje operativni sistemi.
