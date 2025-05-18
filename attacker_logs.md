@@ -5,8 +5,8 @@
 ## 45.33.49.201
 Ovaa IP adresa e somnitelna vednas, pocnuva so prebaruvanje na .robots.txt, .git, .env, /config.php, probuva da dojde do admin login page, kaj sto mu dava 404 errors, /admin mu pravi redirect, se dodeka ne dobie 200 ok request so /admin/login.php, togas ocigledno probuva so bruteforce da go probie passwordot so login requests na sekoi 3 sekundi, po nekoe vreme se logira na dashboard.php, simnuva backup zip file so site podatoci, potoa prikacuva shell.php malicious file so ok requests, i gi menuva podatocite so user-edit.php, najverojatno napadot e uspesen, site podatoci se zemeni i moze da bidat zloupotrebeni. Koristeni se povekje operativni sistemi.
 ##### Koristeni maliciozni aktivnosti: 
+- Skeniranje na cuvstvitelni fajlovi
 - Brute-force
-- baranje cuvstvitelni fajlovi
 - WEB SHELL ATTACK
 - RCE kontrola preku shell.php
 ##### Preporaki: 
