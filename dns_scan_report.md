@@ -6,7 +6,7 @@
 
 -------
 
-## Koristeni alatki i resursi
+## Koristeni alatki i resursi:
 
 - [`amass`](https://github.com/owasp-amass/amass) – Passive subdomain enumeration
 - [`subfinder`](https://github.com/projectdiscovery/subfinder) – Fast passive subdomain discovery
