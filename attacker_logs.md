@@ -11,7 +11,7 @@
 ##### Koristeni maliciozni aktivnosti: XSS (Cross-Site Scripting), SQL ili Command Injection, Brute-force, Path Traversal, obid za neovlasten pristap
 
 ### 121.18.83.75
-- prvo so SQL injection i enkodirani karakteri , kaj sto dava 500 error neuspesen obid, posle probuva so path traversal so ../../etc/passwd, isto i so XSS script tag 400 error bad request, i command injection kaj sto mu dava 404 not found. ima i obid so /api/user1/profile i /api/user2/profile da proba da gi prikaze korisnicite neovlasteno. isto taka moze da e istiot napagjas so smeneta ip adresa.
+- prvo so SQL injection i enkodirani karakteri , kaj sto dava 500 error neuspesen obid, posle probuva so path traversal so ../../etc/passwd, isto i so XSS script tag 400 error bad request, i command injection kaj sto mu dava 404 not found. ima i obid so /api/user1/profile i /api/user2/profile da proba da gi prikaze korisnicite neovlasteno. isto taka moze da e istiot attacker so smeneta ip adresa.
 ##### Koristeni maliciozni aktivnosti: XSS (Cross-Site Scripting), SQL ili CommandInjection, Path Traversal, obid za neovlasten pristap, obidi za otkrivanje na sistemot so api endpoints
 
 ### 216.58.212.110
