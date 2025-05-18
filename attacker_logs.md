@@ -73,6 +73,16 @@ Koristi python skripti, sto e najverojatno avtomatiziran bot, prebaruva .robots.
 - ogranicuvanje na API povici
 - logiranje na neuspesni obidi
 
+### 104.16.248.131
+Moze da e somnitelen, menuva user agents okhttp na mozilla, skenira API i blog, moze da e web scrapper, megjutoa mora da se proveri ako ne e negov accountot sto se logira e problem.
+##### Koristeni maliciozni aktivnosti
+- API scan
+- avtomatizirano odnesuvanje
+##### Preporaki: 
+- monitoring na IP adresata
+- ako ne e legitimna da se blokira
+- ogranicuvanje na API povici
+
 # Zaklucok
 
 ## Spored mene, ovoj sajt e hakiran (lici na SETEC scenario malku), podatocite mozat da bidat zloupotrebeni i treba da se prevzemat itni merki za bezbednost kako sto e navedeno pogore
