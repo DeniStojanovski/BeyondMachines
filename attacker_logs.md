@@ -22,4 +22,6 @@
 ##### Koristeni maliciozni aktivnosti: API scan, auth test
 ##### Preporaki: monitoring na IP adresata, ako ne e poznata da se razgleda blokiranje, ogranicuvanje na API povici, logiranje na neuspesni obidi, proverka na parametri
 
+# Zaklucok
+
 ## Spored mene, ovaa aplikacija e hakirana, podatocite mozat da bidat zloupotrebeni i treba da se prevzemat itni merki za bezbednost kako sto e navedeno pogore
