@@ -23,7 +23,6 @@
   - [DNSDumpster](https://dnsdumpster.com) – DNS records and subdomain mapping
   - [`Waybackurls`](https://github.com/tomnomnom/waybackurls) – Archived URLs from the Wayback Machine
   - [SecurityTrails](https://securitytrails.com/) – Passive DNS, subdomain, and DNS record data (API used)
-  - nslookup – DNS query tool for IP resolution (nslookup example.com)
 
 -------
 
@@ -50,7 +49,7 @@
 ##### https://crt.sh/?q=%25.beyondmachines.net
 
 
-### Aktivni - 5 - (proverka so dig, curl, whatweb, whois ...)
+### Aktivni - 5 - (proverka so dig, curl, whatweb, whois, nslookup ...)
 
 ##### for sub in $(cat subdomains.txt); do dig $sub; done
 
@@ -71,7 +70,7 @@ znaci ne moze da bide proverena, sto e dobar znak za security i ima jaki securit
 Moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze da bide potencijalen kandidat za napad ako ne e pravilno osigurana i odrzuvana, nema direkten pristap preku IP
 
 
-### Neaktivni - 8 - (proverka so dig, curl, whatweb, whois ...)
+### Neaktivni - 8 - (proverka so dig, curl, whatweb, whois, nslookup ...)
 
 ###### ako.beyondmachines.net
 ###### clarity.beyondmachines.net
