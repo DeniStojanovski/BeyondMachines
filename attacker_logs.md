@@ -74,7 +74,7 @@ Koristi python skripti, sto e najverojatno avtomatiziran bot, prebaruva .robots.
 - logiranje na neuspesni obidi
 
 ## 104.16.248.131
-Moze da e somnitelen, menuva user agents okhttp na mozilla, skenira API i blog, moze da e web scrapper, megjutoa mora da se proveri ako ne e negov accountot sto se logira e problem.
+Moze da e somnitelen, menuva user agents okhttp na mozilla, mozebi skeniral API, moze isto taka da e web scrapper, megjutoa mora da se proveri ako ne e negov accountot sto se logira e problem.
 #### Preporaki: 
 - monitoring na IP adresata
 - ako ne e legitimna da se blokira
