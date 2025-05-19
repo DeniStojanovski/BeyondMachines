@@ -66,7 +66,7 @@ moze da se najde star kontent, netocen kontent, stari passwordi, emails etc. Ili
 Moze da bide aktivna samo ako sluzi za legalni informacii ili privacy policy, vo sprotivno nema potreba, kako uste da e vo produkcija i da ne e zavrsena mi deluva. Isto vrakja 403 forbidden error sto e somnitelno od terminal,
 znaci ne moze da bide proverena, sto e dobar znak za security i ima jaki security headers.
 
-###### yieldcat.beyondmachines.net (216.24.57.1) - host CLOUDFLARE
+###### yieldcat.beyondmachines.net (216.24.57.1) - host RENDER (zastita CLOUDFLARE)
 Moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze da bide potencijalen kandidat za napad ako ne e pravilno osigurana i odrzuvana.
 
 
