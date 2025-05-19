@@ -67,7 +67,7 @@ Moze da bide aktivna samo ako sluzi za legalni informacii ili privacy policy, vo
 znaci ne moze da bide proverena, sto e dobar znak za security i ima jaki security headers.
 
 ###### yieldcat.beyondmachines.net (216.24.57.1) - host RENDER (zastita CLOUDFLARE)
-Moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze da bide potencijalen kandidat za napad ako ne e pravilno osigurana i odrzuvana.
+Moze da bide aktiven ako se sluzi za testiranje ili ucenje, izgleda safe, moze da bide potencijalen kandidat za napad ako ne e pravilno osigurana i odrzuvana, nema direkten pristap preku IP
 
 
 ### Neaktivni - 8 - (proverka so dig, curl, whatweb, whois ...)
@@ -99,7 +99,7 @@ ova izgleda kako zaboraveno sto isto taka nema potreba da e online dodeka ne tra
 
 ###### pubcdn.beyondmachines.net (18.165.72.104) host AWS
 nikako ne smee da bide aktivna ako ne se koristi, vrakja 403 error sto e somnitelno, dzabe pogolema povrsina za napad...
-treba da se izbrise DNS recordot, da se deaktivira cloudfront ako ne se koristi.
+treba da se izbrise DNS recordot, da se deaktivira cloudfront ako ne se koristi, nema direkten pristap preku IP
 
 ###### test.beyondmachines.net
 ne e aktiven, isto taka ne mozam da najdam nisto, bi trebalo da e ok ako e izbrisan sekoj DNS zapis, ne znam dali mi go dava so wordlist kako "test" od drugite "testalb" ili "rendertest".
