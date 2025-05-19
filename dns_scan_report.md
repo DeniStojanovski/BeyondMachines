@@ -51,6 +51,8 @@
 
 ### Aktivni - 5 - (proverka so dig, curl, whatweb, whois ...)
 
+##### for sub in $(cat subdomains.txt); do dig $sub; done
+
 ###### www.beyondmachines.net (18.244.87.20) - host AWS
 
 ###### challenge.beyondmachines.net (185.199.111.153) - host GITHUB
