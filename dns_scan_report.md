@@ -14,7 +14,7 @@
 - [`nmap`](https://nmap.org/) – Port scanning and host discovery
 - [`dnsrecon`](https://github.com/darkoperator/dnsrecon) – DNS enumeration and zone transfer testing
 - [`curl`](https://curl.se/) – HTTP header inspection via CLI (`curl -I`)
-
+- ['nslookup'](https://www.nslookup.io/) - DNS query tool for IP resolution (nslookup beyondmachines.net)
 - Online sources:
   - [crt.sh](https://crt.sh) – Subdomains from SSL certificate transparency logs
   - [WHOIS](https://who.is/) – Domain ownership and registration info
@@ -23,6 +23,7 @@
   - [DNSDumpster](https://dnsdumpster.com) – DNS records and subdomain mapping
   - [`Waybackurls`](https://github.com/tomnomnom/waybackurls) – Archived URLs from the Wayback Machine
   - [SecurityTrails](https://securitytrails.com/) – Passive DNS, subdomain, and DNS record data (API used)
+  - nslookup – DNS query tool for IP resolution (nslookup example.com)
 
 -------
 
