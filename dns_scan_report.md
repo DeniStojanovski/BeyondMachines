@@ -102,7 +102,7 @@ nikako ne smee da bide aktivna ako ne se koristi, vrakja 403 error sto e somnite
 treba da se izbrise DNS recordot, da se deaktivira cloudfront ako ne se koristi.
 
 ###### test.beyondmachines.net
-ne e aktiven, isto taka ne mozam da najdam nisto, bi trebalo da e ok ako e izbrisan sekoj DNS zapis
+ne e aktiven, isto taka ne mozam da najdam nisto, bi trebalo da e ok ako e izbrisan sekoj DNS zapis, ne znam dali mi go dava so wordlist kako "test" od drugite "testalb" ili "rendertest".
 
 # Istrazuvanja
 
