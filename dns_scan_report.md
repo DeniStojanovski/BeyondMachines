@@ -14,7 +14,7 @@
 - [`nmap`](https://nmap.org/) – Port scanning and host discovery
 - [`dnsrecon`](https://github.com/darkoperator/dnsrecon) – DNS enumeration and zone transfer testing
 - [`curl`](https://curl.se/) – HTTP header inspection via CLI (`curl -I`)
-- ['nslookup'](https://www.nslookup.io/) - DNS query tool for IP resolution (nslookup beyondmachines.net)
+- [`nslookup`](https://www.nslookup.io/) - DNS query tool for IP resolution (nslookup beyondmachines.net)
 - Online sources:
   - [crt.sh](https://crt.sh) – Subdomains from SSL certificate transparency logs
   - [WHOIS](https://who.is/) – Domain ownership and registration info
